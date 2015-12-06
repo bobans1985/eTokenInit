@@ -269,7 +269,8 @@ static void leave(const char * message)
 
 CK_FUNCTION_LIST_PTR fl = NULL; // PKCS#11 functions list
 
-// Load eTPKCS11 and initialize PKCS#11.
+// Load eTPKCS11 and initialize PKCS#11.   //  
+//test
 void LoadPKCS11()
 {
   HINSTANCE hLib = LoadLibrary(PKCS11_DLL_NAME); 
