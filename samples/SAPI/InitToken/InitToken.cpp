@@ -393,7 +393,7 @@ int main(int argc, char* argv[])
  	{CKA_SAPI_RETRY_SO_MAX,     &nMaxRetry,                   sizeof(nMaxRetry) },   //Количество попыток ввода
     {CKA_SAPI_PIN_USER,       (CK_CHAR_PTR)"012345",    6   				      }, //PUK по умолчанию при иницилизации
     {CKA_SAPI_RETRY_USER_MAX, &nMaxRetry,                   sizeof(nMaxRetry) }, //Количество попыток ввода
-    {CKA_LABEL,               (CK_CHAR_PTR)"eTokenNAME", 9}, //Так будет называться наш етокинг сейчас
+    {CKA_LABEL,               (CK_CHAR_PTR)"eTokenNAM1E", 9}, //Так будет называться наш етокинг сейчас
      };
 
 	 printf("Initialization in progress");
